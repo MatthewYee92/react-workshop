@@ -1,0 +1,19 @@
+{
+  "name": "react-workshop",
+  "version": "1.0.0",
+  "description": "react workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewYee92/react-workshop.git"
+  },
+  "author": "Matthew Yee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewYee92/react-workshop/issues"
+  },
+  "homepage": "https://github.com/MatthewYee92/react-workshop#readme"
+}
