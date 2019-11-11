@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// portal for connecting React shadow dom / virtual dom to the DOM
+import React from 'react'
+// only used in this file
+import ReactDOM from 'react-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// import the app engine
+import App from './App'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// functional programming technique to keep code clean
+const rootEl = document.getElementById('root')
+
+// pass in the App component into the render method
+ReactDOM.render(<App/>,rootEl)

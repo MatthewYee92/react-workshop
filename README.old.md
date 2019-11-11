@@ -1,2 +1,0 @@
-# react-workshop
-react workshop
